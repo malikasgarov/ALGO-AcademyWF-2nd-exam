@@ -2,7 +2,8 @@
     font-family: raleway;
     src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf)
 }
-.exx{
+
+.exx {
     color: green;
 }
 
@@ -12,7 +13,8 @@ html {
     height: 100%;
     margin: 0;
 }
-div.dropdown >a{
+
+div.dropdown>a {
     color: white;
 }
 
@@ -25,16 +27,19 @@ header {
     left: 0;
     background-color: darkblue;
 }
-header>a>img{
+
+header>a>img {
     height: 32px;
     width: 130px;
     margin-left: 34px;
 }
-img.asd{
-height: 32px;
-width: 132px;
+
+img.asd {
+    height: 32px;
+    width: 132px;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
 
@@ -46,10 +51,18 @@ header>div>a {
     text-decoration: none;
 }
 
+p.green {
+    color: green;
+}
 
+div.p {
+    margin: 32px;
 
-.exx {
+}
 
+div.offer {
+    margin: 54px;
+    display: flex;
 }
 
 header>a>img {
@@ -90,14 +103,11 @@ div.list a {
 .dropdown:hover>a {
     background-color: #3e8e41;
 }
-
-
-
-
-
-
-
-
+@media (max-width: 1000px) {
+    .offer {
+        flex-wrap: wrap;
+    }
+}
 .bg {
     margin-top: 54px;
     text-align: center;
@@ -107,7 +117,18 @@ div.list a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+div.icon {
+    display: flex;
+    gap: 32px;
+}
 
+div.bir {
+    margin-left: 100px;
+}
+
+div.uc {
+    margin-right: 100px;
+}
 div.center {
     color: white;
     position: absolute;
@@ -134,4 +155,24 @@ div.center a:hover {
     background: none;
     color: rgb(101, 233, 101);
     border: 2px solid rgb(101, 233, 101);
+}
+div.service p{
+    font-weight: bold;
+}
+div.service{
+    text-align: center;
+}
+div.service h2{
+margin: 0;
+}
+div.h2 h2{
+    margin: 0;
+}
+div.pic img{
+   width: 100%;
+}
+div.pic{
+    margin: 0px 100px;
+    gap: 20px;
+    display: flex;
 }
